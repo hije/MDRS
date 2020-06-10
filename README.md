@@ -20,5 +20,17 @@ Restore_routes.sh
 
 
 适用于：
+
 openwrt 系统，无论X86还是其他平台。
 绝大部分Linux系统，基于linux shell命令，应该都支持。
+
+
+运行方式：
+
+赋予权限：
+chmod +x mdrs.sh
+前台运行：
+./mdrs.sh
+后台运行：
+./mdrs.sh &
+可自行添加至开机运行脚本exit之前。
