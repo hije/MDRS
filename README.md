@@ -17,3 +17,8 @@ Restore Programme
 Restore_routes.sh
 
 恢复路由程序，程序前台运行使用ctrl+c来退出程序，如果是后台运行则使用kill，但由于写入了系统路由表需要运行本程序来清除，也可以不清除，待系统重启后写入的详细路由会消失。
+
+
+适用于：
+openwrt 系统，无论X86还是其他平台。
+绝大部分Linux系统，基于linux shell命令，应该都支持。
