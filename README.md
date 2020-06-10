@@ -1,7 +1,7 @@
 # MDRS
 Minium Dealy Routes Selector
 
-用于双出口路由器，以选择最优响应目的IP地址，加速网络响应与浏览速度。
+用于双ISP运营商出口的LinuxBase路由器，选择最优响应目的IP地址写入路由表，加速网络响应与浏览速度。
 
 Main Programme
 MDRS.sh
@@ -40,3 +40,8 @@ chmod +x mdrs.sh
 ./mdrs.sh &
 
 可自行添加至开机运行脚本exit之前。
+
+
+后续功能：
+
+对数据库的定时重新测试，以获得最新的ping延迟数据，动态优化整体路由表，增加记录链路访问次数，访问次数低的路由，将踢出路由表，减少对系统内存和CPU的负担。
