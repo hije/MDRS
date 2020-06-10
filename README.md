@@ -30,13 +30,14 @@ openwrt 系统，无论X86还是其他平台。
 
 
 赋予权限：
-
 chmod +x mdrs.sh
+
+
 前台运行：
-
 ./mdrs.sh
-后台运行：
 
+
+后台运行：
 ./mdrs.sh &
 
 可自行添加至开机运行脚本exit之前。
